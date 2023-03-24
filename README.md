@@ -6,7 +6,7 @@ Goat is a simple library for fetching Bitcoin inscribed data from transaction ID
 
 # How it works
 
-All you need is give goat a Bitcoin transaction ID, and it will give you the inscribed data. The data can be anything. JSON, YAML, image, etc.
+All you need is give goat a Bitcoin transaction ID, and it will give you the inscribed data. The data can be anything. JSON, YAML, etc. **(Currently only supports textual content).**
 
 1. **Bitcoin mode:** When you run a goat command, by default it tries to fetch from a local Bitcoin node through RPC (if it's running)
 2. **HTTP mode:** If there is no Bitcoin node running, it tries to fetch the raw transaction using a blockchain API.
