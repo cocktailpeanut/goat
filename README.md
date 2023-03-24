@@ -26,6 +26,10 @@ This ensures that:
 1. **URIs not included:** It does NOT include any instructions, addresses, or transaction IDs for downloading files. It's simply a library that fetches data from Bitcoin, given a transaction ID.
 2. **No upload (at the moment):** It's "download only". If you have already posted something on Bitcoin using the Ordinals protocol, you can download using the simple goat command.
 
+> **NOTE**
+> 
+> If you want to use Goat, you must first store whatever you want on Bitcoin using Ordinals. You can do it yourself by using the official [Ordinals indexer + wallet](https://ordinals.com) or 3rd party services like [Ordinalsbot](https://ordinalsbot.com/)
+
 # Quickstart
 
 Let's try something for fun!
@@ -65,11 +69,6 @@ When you run the command, you'll see that the content will be stored at `psbt.js
 npm install -g goatnet
 ```
 
-# Quickstart
-
-## 1. Publish on Bitcoin
-
-Currently Goat does not include a way to inscribe data on Bitcoin. You can do it yourself by using the official [Ordinals wallet](https://ordinals.com) or 3rd party services like [Ordinalsbot](https://ordinalsbot.com/)
 
 # Usage
 
