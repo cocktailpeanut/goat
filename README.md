@@ -1,8 +1,8 @@
 # Goat
 
-# What Goat does
-
 Goat is a simple library for fetching Bitcoin inscribed data from transaction IDs (currently supporting [Ordinals](https://ordinals.com)).
+
+![goat.gif](goat.gif)
 
 # How it works
 
